@@ -7,7 +7,7 @@ try:
     x= int("123")
     a = [3,4,6]
     print(a[100])
-    x= abc
+    x= 10
 
 
 except ZeroDivisionError:
@@ -25,3 +25,11 @@ except IndexError:
     
 except Exception as e:
     print("Some error occured!", e)
+    
+else:
+    print("Code executed successfully")
+    
+finally:
+    print("Finished !")
+    
+    
