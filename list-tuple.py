@@ -7,6 +7,9 @@ a[0] = "Naymur"
 # s= "He llo"
 
 # print(list(s))
-a.append([2,5,7])
+a.append(2)
 
 print(a)
+
+print(a.count("Naymur"))
+
