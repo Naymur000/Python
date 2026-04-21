@@ -7,7 +7,9 @@ a[0] = "Naymur"
 # s= "He llo"
 
 # print(list(s))
-a.append(2)
+a.append([2,9])
+
+a.extend([3,5])
 
 print(a)
 
