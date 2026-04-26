@@ -1,1 +1,3 @@
-3,4,67,8
+) as f:
+#     f.write("This is Naymur before you")
+#     f.write("BSC in CSE")
