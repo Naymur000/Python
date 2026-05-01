@@ -4,9 +4,11 @@ try:
         print(content)
         
     print(10/0)
-    x= int("abc")
+    x= int("123")
     a = [3,4,6]
     print(a[100])
+    x= abc
+
 
 except ZeroDivisionError:
     print("Error: Division by zero is not possible")
@@ -19,4 +21,7 @@ except ValueError:
     print("String to integer is not possible")
 
 except IndexError:
-    print("Index error")
+    print("Invalid Index")
+    
+except Exception as e:
+    print("Some error occured!", e)
