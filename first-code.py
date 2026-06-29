@@ -1,7 +1,8 @@
-a ="Hello"
+a ="Hello programmers "
 
 print(type(a))
 
-print(a[-1])
-print(a[-3])
-# print(a[-2])
+
+
+
+print(a.replace("Hello", "Assalamu Alaikum"))
