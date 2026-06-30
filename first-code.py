@@ -1,8 +1,9 @@
-a ="Hello programmers "
+age = 25
 
-print(type(a))
+f_name = "Naymur"
 
+l_name = "Rahman"
 
-print(a.swapcase())
+txt = "My name is {} {}. I am {} years old.".format(f_name, l_name, age)
 
-print(a.replace("Hello", "Assalamu Alaikum"))
+print(txt)
