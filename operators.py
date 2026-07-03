@@ -4,4 +4,7 @@ b = 43//5
 
 c = int(43/5)
 
-print(a, b, c)
+x = 5**3
+
+print(a, b, c, x)
+
