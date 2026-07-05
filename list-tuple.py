@@ -15,3 +15,5 @@ print(a)
 
 print(a.count("Naymur"))
 
+print(a.reverse())
+
