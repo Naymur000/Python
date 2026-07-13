@@ -4,7 +4,7 @@ import qrcode
 
 # filename = input("Enter the filename to save the qrcode: ")
 
-def generate_qecode(filepath):
+def generate_qrcode(filepath):
     with open(filepath, "r") as file:
         lines = file.readlines()       
     text = lines[0].strip()
@@ -13,4 +13,5 @@ def generate_qecode(filepath):
     image_qrcode = qrcode.make(text)
     image_qrcode.save(filename)
     
-generate_qecode("input.txt") 
+generate_qrcode("input.txt") 
+
